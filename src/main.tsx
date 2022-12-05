@@ -35,11 +35,11 @@ declare module '@mui/material/Button' {
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
+      <App />
+    {/* <ThemeProvider theme={theme}>
       <Button color="neutral" variant="contained">
         neutral
       </Button>
-      <App />
-    </ThemeProvider>
+    </ThemeProvider> */}
   </React.StrictMode>
 )
